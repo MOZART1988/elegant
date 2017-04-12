@@ -1,0 +1,45 @@
+/*
+
+a.button21 {
+    display: inline-block;
+    margin-left: 7em;
+    padding: 5px;
+    user-select: none;
+    color: #fff;
+    border-radius: 2px;
+    background: linear-gradient(to bottom, rgba(234,234,234,1) 0%,rgba(239,1,124,1) 100%);
+    transition: .2s ease-in-out;
+    float: left;
+    font-weight: normal;
+    font-size: 1.3em;
+}
+a.button21:hover:not(:active) {
+    background: #fff;
+    color: #000;
+}
+a.button21:active {
+    background: linear-gradient(rgb(250,250,250), rgb(235,235,235));
+    box-shadow:
+        0 0 3px rgba(0,0,0,.5) inset,
+        0 1px 1px 1px rgba(255,255,255,.4),
+        0 -1px 1px 1px rgba(0,0,0,.1);
+}*/
+
+
+.oneClick-message{
+    position: fixed;
+    top: 0;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    color: #000;
+    z-index: 9;
+    padding: 2em 26em 0;
+}
+.oneClick-message p{
+    margin: 0 auto;
+    background: pink;
+    padding: 0.5em;
+}
+.oneClick-message p:first-child{font-size: 1.5em;}
+.oneClick-message p:last-child{font-size: 0.8em;}

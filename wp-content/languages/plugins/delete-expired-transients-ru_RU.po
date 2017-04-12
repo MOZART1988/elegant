@@ -1,0 +1,160 @@
+# Translation of Plugins - Delete Expired Transients - Stable (latest release) in Russian
+# This file is distributed under the same license as the Plugins - Delete Expired Transients - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-11-18 20:44:20+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: GlotPress/2.3.0-alpha\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - Delete Expired Transients - Stable (latest release)\n"
+
+#: views/admin-tools-page.php:51
+msgctxt "tools page submit button"
+msgid "Delete"
+msgstr "Удалить"
+
+#: views/admin-tools-page.php:43
+msgid "obsolete sessions from WooCommerce version 2.4 and earlier"
+msgstr "устаревшие сессии из WooCommerce v2.4 или более ранние"
+
+#: views/admin-tools-page.php:29
+msgid "Delete the selected items immediately"
+msgstr "Удалить выделенное немедленно"
+
+#: views/admin-tools-page.php:21
+msgid "Obsolete WooCommerce sessions: %s"
+msgstr "Устаревших сессий WooCommerce: %s"
+
+#: includes/class.DelxtransSite.php:67
+msgid "All obsolete WooCommerce sessions deleted."
+msgstr "Все устаревшие сессии WooCommerce удалены."
+
+#. Author URI of the plugin/theme
+msgid "https://shop.webaware.com.au/"
+msgstr "https://shop.webaware.com.au/"
+
+#. Author of the plugin/theme
+msgid "WebAware"
+msgstr "WebAware"
+
+#. Description of the plugin/theme
+msgid "delete old, expired transients from WordPress wp_options table"
+msgstr "удаляет старые, истекшие транзиенты из таблицы wp_options WordPress"
+
+#. Plugin URI of the plugin/theme
+msgid "https://shop.webaware.com.au/downloads/delete-expired-transients/"
+msgstr "https://shop.webaware.com.au/downloads/delete-expired-transients/"
+
+#: views/admin-tools-page.php:38
+msgid "all transients -- use with caution!"
+msgstr "все транзиенты - осторожно!"
+
+#: views/admin-tools-page.php:34
+msgid "expired transients"
+msgstr "истекшие транзиенты"
+
+#: views/admin-tools-page.php:19
+msgid "Total transients: %s"
+msgstr "Всего транзиентов: %s"
+
+#: views/admin-tools-page.php:18
+msgid "Expired transients: %s"
+msgstr "Истекших транзиентов: %s"
+
+#: views/admin-network-page.php:31
+msgid "Delete all site transients"
+msgstr "Удалить все транзиенты сайта"
+
+#: views/admin-network-page.php:26
+msgid "Delete expired site transients"
+msgstr "Удалить истекшие транзиенты сайта"
+
+#: views/admin-network-page.php:19
+msgid "Site Transients: %1$s expired, %2$s total"
+msgstr "Транзиенты сайта: %1$s истекло, %2$s всего"
+
+#. #-#-#-#-#  tmp-delete-expired-transients.pot (Delete Expired Transients
+#. 2.0.6)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: views/admin-network-page.php:10 views/admin-tools-page.php:10
+msgid "Delete Expired Transients"
+msgstr "Удалить истекшие транзиенты"
+
+#: includes/class.DelxtransSiteListTable.php:62
+#: includes/class.DelxtransSiteListTable.php:148
+msgid "Delete all"
+msgstr "Удалить все"
+
+#: includes/class.DelxtransSiteListTable.php:61
+#: includes/class.DelxtransSiteListTable.php:144
+msgid "Delete expired"
+msgstr "Удалить истекшие"
+
+#: includes/class.DelxtransSiteListTable.php:40
+msgid "Total transients"
+msgstr "Всего транзиентов"
+
+#: includes/class.DelxtransSiteListTable.php:39
+msgid "Expired transients"
+msgstr "Истекшие транзиенты"
+
+#: includes/class.DelxtransSiteListTable.php:38
+msgid "Blog Name"
+msgstr "Название блога"
+
+#: includes/class.DelxtransSiteListTable.php:37
+msgid "Blog ID"
+msgstr "Blog ID"
+
+#: includes/class.DelxtransSiteListTable.php:25
+msgctxt "sites in network"
+msgid "Blogs"
+msgstr "Блоги"
+
+#: includes/class.DelxtransSiteListTable.php:24
+msgctxt "a single site in network"
+msgid "Blog"
+msgstr "Блог"
+
+#: includes/class.DelxtransPlugin.php:171
+msgctxt "plugin details links"
+msgid "Donate"
+msgstr "Пожертвовать"
+
+#: includes/class.DelxtransPlugin.php:170
+msgctxt "plugin details links"
+msgid "Translate"
+msgstr "Перевести"
+
+#: includes/class.DelxtransPlugin.php:169
+msgctxt "plugin details links"
+msgid "Rating"
+msgstr "Рейтинг"
+
+#: includes/class.DelxtransPlugin.php:168
+msgctxt "plugin details links"
+msgid "Get help"
+msgstr "Получить помощь."
+
+#: includes/class.DelxtransNetwork.php:63
+msgid "All site transients deleted."
+msgstr "Все транзиенты сайта удалены."
+
+#: includes/class.DelxtransNetwork.php:62
+msgid "Expired site transients deleted."
+msgstr "Истекшие транзиенты сайта удалены."
+
+#: includes/class.DelxtransNetwork.php:61 includes/class.DelxtransSite.php:62
+msgid "All transients deleted."
+msgstr "Все транзиенты удалены"
+
+#: includes/class.DelxtransNetwork.php:60 includes/class.DelxtransSite.php:57
+msgid "Expired transients deleted."
+msgstr "Истекшие транзиенты удалены."
+
+#: includes/class.DelxtransNetwork.php:30 includes/class.DelxtransSite.php:28
+msgid "Delete Transients"
+msgstr "Удалить транзиенты"

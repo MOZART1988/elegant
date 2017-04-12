@@ -1,0 +1,10 @@
+*** Shelflife Changelog ***
+	
+2012.01.06 - version 1.0.1
+ * includes/theme-actions.php,
+   style.less,
+   css/mixins.less,
+   styles/* - Replaced default Google font with Bitter, as Rokkit was causing Chrome on Windows to crash
+	
+2012.01.05 - version 1.0
+ * First release!

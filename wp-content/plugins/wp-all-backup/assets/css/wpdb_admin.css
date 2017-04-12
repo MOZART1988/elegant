@@ -1,0 +1,10 @@
+body{
+  background: transparent !important;
+}
+.wpdb-header{
+  background-color: #dff0d8;
+}
+.panel {
+  margin-bottom: 0 !important;
+}
+input[type="email"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="url"], select, textarea{width:100%}
