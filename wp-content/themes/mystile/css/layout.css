@@ -186,4 +186,18 @@ table.cart td.actions .button{margin-left:.618em;float:none !important;}
 #footer-widgets.col-4 .footer-widget-4{margin-right:0;}
 .ie7 #top-nav{position:relative;z-index:9999999;}
 .ie7 #header{position:relative;z-index:9999999;}
+
+.single-product .images .thumbnails  a{
+	display: block;
+	width: 80px !important;
+	height: 80px;
+	margin: 10px;
+}
+.single-product .images .thumbnails  a img{
+	object-fit:cover;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+
 }
