@@ -54,7 +54,7 @@ if ( ! empty( $_SERVER['SCRIPT_FILENAME'] ) && basename( __FILE__ ) == basename(
 		<!--end custom block-->  
 		<div class="column contact">
 			<ul>
-				<li class="phone_f">+7(495)796-33-35</li>
+				<li class="phone_f">+7(495)369-06-40</li>
 				<li class="email_f"><a href="mailto:Elegant-Life@mail.ru">Elegant-Life@mail.ru</a></li>
 				<li class="address_f">г.Москва, торгово-офисный центр «Olympic Plaza» Москва, просп. Мира, 33, корп.1</li>
 			</ul>

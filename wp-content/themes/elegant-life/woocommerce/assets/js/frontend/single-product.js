@@ -80,7 +80,7 @@ jQuery( function( $ ) {
 			$('#header_user').removeClass('close-cart'),
 			$('.header-button').find('.icon_wrapp').removeClass('active')
 	});
-	console.log("HELLO!");
+	//console.log("HELLO!");
 	$(".content_social").click(function(){
 		$(this).animate({height: "300px"}, 600).addClass("click_close_social");
 		$(".text_surprise").addClass('js-surprise-opened');
