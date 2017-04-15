@@ -191,7 +191,7 @@ table.cart td.actions .button{margin-left:.618em;float:none !important;}
 	display: block;
 	width: 80px !important;
 	height: 80px;
-	margin: 10px;
+	margin: 0;
 }
 .single-product .images .thumbnails  a img{
 	object-fit:cover;
@@ -200,4 +200,32 @@ table.cart td.actions .button{margin-left:.618em;float:none !important;}
 	height: 100%;
 }
 
+.images .bx-wrapper .thumbnails{
+	margin-top: 0;
+}
+
+.images .bx-wrapper{
+	margin-top: 15px !important;
+}
+
+.images .bx-wrapper .bx-viewport{
+	left: 0;
+}
+
+.images .bx-wrapper .bx-prev {
+    left: -45px;
+}
+
+.images .bx-wrapper .bx-next {
+    right: -45px;
+}
+
+.info .p-first a {
+    padding: 0;
+    display: inline;
+    font-weight: normal;
+}
+.huge_it_slideshow_image_wrap_2{
+	max-height: 374px !important;
+}
 }

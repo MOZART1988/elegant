@@ -93,15 +93,4 @@ $(document).ready(function() {
         e.stopPropagation();
     });
 
-
-    $('.images .thumbnails').bxSlider({
-        moveSlides: 1,
-        pager: 0,
-        auto: 1,
-        minSlides: 3,
-        maxSlides: 3,
-        slideWidth: 80,
-        slideMargin: 10
-    });
-
 });
