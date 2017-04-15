@@ -559,21 +559,21 @@ add_action('woocommerce_after_single_product_summary', function(){
 	$shipment = get_post(9);
 	$sertificats = get_post(33761);
 
-	echo <<<HTML
-		<div class='info'>
+	echo '
+		<div class="info">
 			<ul class="tabs">
 				<li><div id="shipment" class="button">Доставка и оплата</div></li>
 				<li><div id="sertificats" class="button">Наши сертификаты</div></li>
+				<li><div id="reviews" class="button">Отзывы</div></li>
 			</ul>
 			<div class="clear"></div>
 			<ul class="tab-content">
-				<li class="shipment">$shipment->post_content</li>
-				<li class="sertificats">$sertificats->post_content</li>
-
+				<li class="shipment">'.$shipment->post_content.'</li>
+				<li class="sertificats">'.$sertificats->post_content.'</li>
+                <li class="reviews"></li>
 			</ul>
 		</div>
-		<hr>
-HTML;
+		<hr>';
 
 });
 
