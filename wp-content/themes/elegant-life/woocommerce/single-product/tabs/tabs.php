@@ -23,12 +23,10 @@ if ( ! empty( $tabs ) ) : ?>
 
 	<div class="woocommerce-tabs">
 		<?php foreach ( $tabs as $key => $tab ) : ?>
-            <?php if ($key!='reviews'):?>
 			<div class="<?=$key?>" <? /*id="tab-<?php echo $key ?>" */?> >
 				<?php call_user_func( $tab['callback'], $key, $tab ) ?>
 			</div>
 			<hr>
-            <?php endif;?>
 		<?php endforeach; ?>
 	</div>
 

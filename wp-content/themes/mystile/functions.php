@@ -564,13 +564,13 @@ add_action('woocommerce_after_single_product_summary', function(){
 			<ul class="tabs">
 				<li><div id="shipment" class="button">Доставка и оплата</div></li>
 				<li><div id="sertificats" class="button">Наши сертификаты</div></li>
-				<li><div id="reviews" class="button">Отзывы</div></li>
+				<li><div id="custom-reviews" class="button">Отзывы</div></li>
 			</ul>
 			<div class="clear"></div>
 			<ul class="tab-content">
 				<li class="shipment">'.$shipment->post_content.'</li>
 				<li class="sertificats">'.$sertificats->post_content.'</li>
-                <li class="reviews"></li>
+                <li class="custom-reviews"></li>
 			</ul>
 		</div>
 		<hr>';

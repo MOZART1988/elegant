@@ -35,9 +35,14 @@ jQuery(document).ready(function($) {
         $("#woocommerce_product_categories-2 h4").removeClass('minus');
         if (!$(this).parent().next().is(":visible")) { $(this).parent().next().slideDown();
             $(this).addClass('minus'); } });
+
     $('.lightb').on('click', function() { $('#box').remove();
+        var description = $(this).prev().find('.name-wrapper span').html();
+        description = '<span style="font-size:8pt; width:100%; text-align: left; padding: 5px;">' + description + '</span>';
+        var button = $(this).prev().find('.buttons').find('form').html();
+        button  = '<div class="buttons"><form class="cart" method="post" enctype="multipart/form-data" style="width: 30%;">'+ button +'</form></div>';
         var box = $('<div/>', { id: 'box', });
-        box.append('<div class="modal-box"><a class="close"><img src="/wp-content/themes/elegant-life/images/close.png"/></a><span></span><img src=""></div><div class="over close"></div>');
+        box.append('<div class="modal-box"><a class="close"><img src="/wp-content/themes/elegant-life/images/close.png"/></a><div class="add_info">'+ description + button + '<div class="clear"></div></div><span></span><img src=""></div><div class="over close"></div>');
         box.children('.modal-box').children('img').attr('src', $(this).siblings('.product-container').children('a').children('.img-holder').children('.img-wrapper').children('img').attr('src'));
         box.children('.modal-box').children('span').html($(this).siblings('.product-container').children('a').children('.name-wrapper').children('.product-title').html());
         $('body').append(box);
@@ -59,6 +64,7 @@ jQuery(document).ready(function($) {
         $('.close').on('click', function() { $('#box').fadeOut('fast');
             setTimeout(function() { $('#box').remove(); }, 1000); });
         $(window).resize(function() { popup_position(); }); });
+
     $('ul.parent > li.cat-item > div > .dropdown').each(function() {
         if (!($(this).parent().siblings().hasClass('children'))) { $(this).css('display', 'none'); }; });
     $('.breadcrumb-trail').children('a:contains("Товары") + span').hide();
@@ -71,7 +77,7 @@ jQuery(document).ready(function($) {
         return false; });
     $(".callme_submit").click(function() { show(); });
 
-    
+
 
     $('.images .thumbnails').bxSlider({
         moveSlides: 1,
@@ -82,5 +88,7 @@ jQuery(document).ready(function($) {
         slideWidth: 80,
         slideMargin: 10
     });
+
+     $('.reviews').appendTo($('.custom-reviews'));
 
 });
