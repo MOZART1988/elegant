@@ -1279,7 +1279,7 @@ ul.nav li a {
 #comments .commentlist li.comment .comment_container p.meta {
     font-weight: bold;
     margin-bottom: .618em;
-    color: #9f9693
+    color: #000
 }
 
 #comments .commentlist li.comment .comment-container .comment-head .name,
@@ -1380,7 +1380,8 @@ ul.nav li a {
 }
 
 #comments .commentlist li.comment .comment_container .comment-text {
-    width: 91.35%
+    width: 91.35%;
+    color:#000;
 }
 
 #comments .commentlist li.comment ul.children {
@@ -2146,7 +2147,9 @@ table.variations tr:last-child th {
 
 .images .thumbnails {
     border-top: 0;
-    margin-top: 1em
+    margin-top: 1em;
+    visibility: hidden;
+    height: 80px;
 }
 
 .images .thumbnails:after {
@@ -3238,4 +3241,33 @@ img.ui-datepicker-trigger {
 .comments_title span {
     font-weight: normal;
     font-size: 0.8em
+}
+
+
+.modal-box .modal-price span{
+    display: inline;
+    font-size: 16px;
+}
+
+.modal-box .modal-price .amount{
+    margin: 0;
+}
+
+.modal-box .modal-price ins{
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+.modal-box .modal-price ins .amount{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.modal-box .modal-price ins .rur{
+    font-weight: bold;
+}
+
+.modal-box .modal-price ins .rur span{
+    font-weight: bold;
 }
